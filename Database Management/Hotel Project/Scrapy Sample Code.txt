@@ -1,0 +1,7 @@
+#---TripAdvisor
+
+#-Accessing HREF
+response.css('div.quote.isNew').css('a.title::attr(href)').extract()
+
+#-Accessing Text
+ response.css('div.quote.isNew').css('a.href::text').extract()
