@@ -4,4 +4,4 @@
 response.css('div.quote.isNew').css('a.title::attr(href)').extract()
 
 #-Accessing Text
- response.css('div.quote.isNew').css('a.href::text').extract()
+ response.css('div.entry').css('p.partial_entry::text').extract_first()
